@@ -1,0 +1,190 @@
+/* Universal Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+::placeholder{
+    color: #fff;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Banner Styles (Header Section)*/
+.banner{
+    padding: 210px 230px;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.banner-container{
+    width: 500px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #fff;
+}
+.banner-description{
+    color: #fff;
+    margin-bottom: 32px;
+}
+.banner-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    background-color: #fff;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+    .section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.section-description{
+    color: #444343;
+}
+section{
+    margin-top: 130px;
+}
+
+/* Failure Section Styles */
+.my-failures{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.failure-content{
+    margin-right: 60px;
+}
+.failure-content .section-title{
+    margin-bottom: 24px;
+}
+.failure-content .section-description{
+    margin-bottom: 16px;
+}
+.failure-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.failure-item .fa-check{
+    width: 24px;
+    height: 24px;
+    color: #16D887;
+}
+
+/* My Plans Section Styles */
+.my-plans{
+    text-align: center;
+}
+.my-plans > .section-title{
+    margin-bottom: 50px;
+}
+.plan-items-container{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-items-container .section-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.plan-items-container .section-description{
+    font-size: 25px;
+    font-weight: 500;
+}
+.plan-item img{
+    margin-bottom: 30px;
+}
+
+/* Positive Mindset Section Styles */
+.positive-mindset{
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:  linear-gradient(to right,#005fac, #f7f7f7), url('../images/watch.png');
+}
+.positive-mindset-container{
+    padding: 60px 70px;
+    max-width: 460px;
+}
+.positive-mindset-container .section-title{
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+/* Footer Area Styles */
+footer{
+    background-color: #151414;
+    margin-top: 130px;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0;
+}
+.footer-container .section-title{
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-container .section-description{
+    color: #fff;
+    margin-bottom: 24px;
+}
+.footer-container .contact-area{
+    max-width: 485px;
+}
+.social-media-container{
+    margin-top: 10px;
+    display: flex;
+    gap: 17px;
+}
+.subscribe-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.subscribe-area input{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    margin-bottom: 16px;
+}
+.subscribe-button{
+    padding: 20px 35px;
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
