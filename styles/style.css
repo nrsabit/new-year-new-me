@@ -123,7 +123,7 @@ section{
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
-    background:  linear-gradient(to right,#005fac, #f7f7f7), url('../images/watch.png');
+    background:  linear-gradient(to right,rgba(0, 95, 172, 1), rgba(0, 95, 172, 0.2)), url('../images/watch.png');
 }
 .positive-mindset-container{
     padding: 60px 70px;
